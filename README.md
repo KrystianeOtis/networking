@@ -19,7 +19,7 @@ The program will prompt for the username and after a message is sent the usernam
 
 # Development Environment
 
-* Python 3.100
+* Python 3.10.0
 * Socket library
 * Visual Studio Code
 
