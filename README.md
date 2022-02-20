@@ -1,38 +1,35 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+To start this networking process the 
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+The purpose of this software is to show how a server and a client network works together.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
+This is a demonstration of how to use Python and the sockets library to network between server and a client.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+I used a client server architecture and used TCP with my local IP address and an empty port.
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+I used Port 5054 (but I think you can use any port over 5,000 because those should be unoccupied)
+
+The program will prompt for the username and after a message is sent the username will display with the message back at the server.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Python 3.100
+* Socket library
+* Visual Studio Code
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Tutorialspoint](https://www.tutorialspoint.com/python/python_networking.htm)
+* [Python Docs](https://docs.python.org/3/library/socket.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Chat between multiple clients
+* Make an appealing interface
+* send files or images between clients
