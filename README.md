@@ -1,6 +1,7 @@
 # Overview
 
-To start this networking process the 
+
+To start this networking process both the server.py and client.py need to be downloaded an opened in an IDE. Start the server by running the server.py file first in the command prompt. Then open another command prompt and run client.py. The command prompt will then ask for a username. After inputing the username write a message and send it. Return back to the command prompt that was used to run the server. The message will be displayed there.
 
 The purpose of this software is to show how a server and a client network works together.
 
@@ -9,7 +10,6 @@ This is a demonstration of how to use Python and the sockets library to network 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Network Communication
-
 
 I used a client server architecture and used TCP with my local IP address and an empty port.
 
